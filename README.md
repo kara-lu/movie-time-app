@@ -20,8 +20,14 @@ https://karalu.ca/project/7
 
 ## Version History
 
-* 0.1
+* 1.0
     * Initial Release
+
+## Acknowledgments
+
+API
+* [The Movie Database](https://www.themoviedb.org/)
+* [JustWatch](https://www.justwatch.com/)
 
 # Notes from React
 ## Available Scripts
