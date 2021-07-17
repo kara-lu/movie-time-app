@@ -1,0 +1,68 @@
+.filter{
+    margin: 60px auto 0 auto;
+    text-align: center;
+    .filterInner{
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        list-style-type:none;
+        padding: 0;
+        a{
+            width: 200px;
+            padding: 20px 40px;
+            margin: 0;
+            display: block;
+            background-color: map-get($colors, primaryColor);
+            color: map-get($colors, secondaryColor);
+            text-decoration: none;
+        
+            &:hover,
+            &:focus,
+            &:active {
+                background-color: map-get($colors, secondaryColor);
+                color: map-get($colors, primaryColor);
+            }
+            &.active{
+            background-color: map-get($colors, secondaryColor);
+            color: map-get($colors, primaryColor);
+            }
+        }
+    }
+    @media (min-width: $breakpoint-tablet) {
+        flex-wrap: initial;
+        width: initial;
+    }
+}
+.mobileFilterContainer{
+    // margin: 0 auto;
+
+    #filter{
+            display: block;
+            font-size: 1.25rem;
+            color: map-get($colors, secondaryColor);
+            padding: .6em 1.6em .5em 1.2em;
+            margin: 0 auto;
+            width: 250px;
+            height: 60px;
+            border: none;
+            background-image: url('../img/down-arrow-yellow.png');
+            -moz-appearance: none;
+            -webkit-appearance: none;
+            appearance: none;
+            background-color: map-get($colors, primaryColor);
+            background-repeat: no-repeat, repeat;
+            background-position: right .9em top 50%, 0 0;
+            background-size: .85em auto, 100%;
+            &::-ms-expand {
+                display: none;
+            }
+            &:focus {
+                outline: none;
+            }
+            option {
+                font-size: 1.25rem;
+                font-weight: 300;
+            }
+    }
+}

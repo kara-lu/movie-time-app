@@ -1,0 +1,103 @@
+.movieInfo{
+    // width: 300px;
+    // margin: 0 auto;
+    .right h3{
+        font-size: 1.25rem;
+        color: map-get($colors, primaryColor);
+        font-weight: 500;
+        // margin: 0;
+    }
+    .moviePoster{
+        // width: 280px;
+        margin: 50px auto 0 auto;
+    }
+    .ratingContainer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+        // padding: 0 10%;
+    }
+
+    .rating{
+        background-color: map-get($colors, secondaryColor);
+        width: 70px;
+        height: 42px;
+        // box-shadow: -1px 1px 6px;
+    }
+    .rating h3{
+        font-size: 1.875rem;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 6px;
+        margin: 0;
+    }
+    h1{
+        font-size: 2.5rem;
+        color: map-get($colors, secondaryColor);
+        font-weight: 500;
+    }
+    .releaseDate{
+        font-size: 1.25rem;
+        color: map-get($colors, secondaryColor);
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    .castContainer{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .castBox{
+            margin: 0 5px;
+            h4{
+                margin-bottom: 5px;
+            }
+            p{
+                margin:0;
+            }
+        }
+    }
+    @media (min-width: $breakpoint-tablet) {
+        // padding: 50px;
+        max-width: 700px;
+        margin: 50px auto 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .moviePoster{
+            max-width: 400px;
+            margin: initial;
+            // grid-column-start: 1;
+            img{
+                display: block;
+            }
+        }
+        .right{
+            max-width: 380px;
+            min-width: 280px;
+            // grid-column-start: 2;
+            margin-left: 40px;
+            h1{
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            p{
+                margin-top: 10px;
+            }
+            .ratingContainer{
+                justify-content: flex-start;
+                .rating{
+                    margin-right: 30px;
+                }
+            }
+        }
+    }
+    @media (min-width: $breakpoint-desktop) {
+        // max-width: 700px;
+        margin: 50px initial 0 initial;
+    }
+}

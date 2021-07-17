@@ -1,0 +1,8 @@
+.notFountPage{
+    text-align: center;
+    h1{
+        font-size: 5rem;
+        color: map-get($colors, primaryColor);
+        margin-top: 200px;
+    }
+}

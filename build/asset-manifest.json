@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/movie-time-app/static/css/main.1ad43d5e.chunk.css",
+    "main.js": "/movie-time-app/static/js/main.47bf3347.chunk.js",
+    "main.js.map": "/movie-time-app/static/js/main.47bf3347.chunk.js.map",
+    "runtime-main.js": "/movie-time-app/static/js/runtime-main.a81047b0.js",
+    "runtime-main.js.map": "/movie-time-app/static/js/runtime-main.a81047b0.js.map",
+    "static/css/2.0945ea9d.chunk.css": "/movie-time-app/static/css/2.0945ea9d.chunk.css",
+    "static/js/2.484165a5.chunk.js": "/movie-time-app/static/js/2.484165a5.chunk.js",
+    "static/js/2.484165a5.chunk.js.map": "/movie-time-app/static/js/2.484165a5.chunk.js.map",
+    "index.html": "/movie-time-app/index.html",
+    "static/css/2.0945ea9d.chunk.css.map": "/movie-time-app/static/css/2.0945ea9d.chunk.css.map",
+    "static/css/main.1ad43d5e.chunk.css.map": "/movie-time-app/static/css/main.1ad43d5e.chunk.css.map",
+    "static/js/2.484165a5.chunk.js.LICENSE.txt": "/movie-time-app/static/js/2.484165a5.chunk.js.LICENSE.txt",
+    "static/media/backdrop-coming-soon.3ffeebe9.jpg": "/movie-time-app/static/media/backdrop-coming-soon.3ffeebe9.jpg",
+    "static/media/emptyPoster.a6c32f58.jpg": "/movie-time-app/static/media/emptyPoster.a6c32f58.jpg",
+    "static/media/loading-blue.a390a86b.gif": "/movie-time-app/static/media/loading-blue.a390a86b.gif",
+    "static/media/logo.1a0ba2e2.jpg": "/movie-time-app/static/media/logo.1a0ba2e2.jpg",
+    "static/media/slick-theme.css": "/movie-time-app/static/media/slick.c94f7671.ttf",
+    "static/media/unknowCast.82ce475b.jpg": "/movie-time-app/static/media/unknowCast.82ce475b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a81047b0.js",
+    "static/css/2.0945ea9d.chunk.css",
+    "static/js/2.484165a5.chunk.js",
+    "static/css/main.1ad43d5e.chunk.css",
+    "static/js/main.47bf3347.chunk.js"
+  ]
+}

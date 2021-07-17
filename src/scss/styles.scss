@@ -1,0 +1,33 @@
+// Imports
+
+// Resets
+@import "reset";
+@import "variables";
+
+// Components
+@import "pageContainer";
+@import "header";
+@import "movieBox";
+@import "movieGrid";
+@import "photoGallery";
+@import "moviePage";
+@import "movieInfo";
+@import "provider";
+@import "animation";
+@import "castGallery";
+@import "filter";
+@import "about";
+@import "search";
+@import "fav";
+@import "moreButton";
+@import "pageNotFound";
+@import "footer";
+
+// @use './components/body';
+
+
+// Utilities
+// @use './utilities/utility-classes';
+
+// Google Fonts - Import
+// @import url('https://fonts.googleapis.com/css?family=Alatsi|Roboto:400,400i,700,700i&display=swap');

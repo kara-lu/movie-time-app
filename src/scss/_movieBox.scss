@@ -1,0 +1,121 @@
+.movie{
+  width:240px;
+  position: relative;
+  box-shadow: -1px 1px 6px;
+  margin: 0 auto;
+  
+  h2{
+      font-size: 1.25rem;
+      margin: 0;
+  }
+  h3{
+      font-size: 1rem;
+      font-weight: 300;
+      margin: 0;
+  }  
+
+  .fav{
+      position: absolute;
+      top:10px;
+      right:10px;
+      z-index: 5;
+
+      &:hover{
+            filter: brightness(120%);
+      }
+      &:active,
+      &:focus{
+      filter: brightness(150%);
+      }
+  }
+ 
+  .imgContainer{
+      position: relative;
+      width:240px;
+      height:360px;
+      a{
+        text-decoration: none;
+        // &:hover,
+        // &:focus,
+        // &:active {
+        //     // text-decoration: underline;
+        //     // color: map-get($colors, secondaryColor);
+        // }
+      }
+      img{
+        display: block;
+        height:360px;
+        object-fit: cover;
+      }
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color:rgba(0, 0, 0, 0.8);
+        padding: 20px;
+
+        .overlayInner{
+          margin-top: 50px;
+
+            .overview {
+                color: white;
+                font-size: 1rem;
+              }
+
+            .moreInfo{
+              color: map-get($colors, secondaryColor);
+              font-size: 1rem;
+            }
+        }
+
+      }
+      &:hover .overlay {
+        opacity: 1;
+      }
+  }
+  a{
+    text-decoration: none;
+  }
+
+  .info{
+      position: relative;
+      background-color: map-get($colors, primaryColor);
+      color: map-get($colors, secondaryColor);
+      margin: 0;
+      height:110px;
+
+      .infoInner{
+        padding: 30px 10px 10px 10px;
+
+        h3{
+          margin-top: 2px;
+        }
+
+      }
+
+  }
+
+  .rating{
+      position: absolute;
+      background-color: rgba(252, 191, 73, 0.8);
+      width: 70px;
+      height: 42px;
+      right:0;
+      top:340px;
+      box-shadow: -1px 1px 6px;
+
+      h3{
+        /* color: #003049; */
+        font-size: 1.875rem;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 5px;
+    }
+  }
+}

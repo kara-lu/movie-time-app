@@ -1,0 +1,21 @@
+// golably scoped variables
+
+// font variables
+
+
+// colors
+$colors: (
+  primaryColor: #003049,
+  secondaryColor: #FCBF49,
+  mutedColor: #DEDEDE,
+);
+// color: map-get($colors, pureWhite);
+
+// media query breakpoints
+$breakpoint-largeMobile: 600px;
+$breakpoint-tablet: 850px;
+$breakpoint-desktop: 1320px;
+
+// @media (min-width: $breakpoint-tablet) 
+
+// mixin  @include h2-heading;

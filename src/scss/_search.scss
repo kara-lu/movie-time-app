@@ -1,0 +1,26 @@
+.searchPage{
+    margin: 60px auto 0 auto;
+    .searchInput{
+        text-align: center;
+    }
+    input[type=text], select {
+        width: 260px;
+        padding: 20px 40px;
+        margin: 8px 0;
+        background-color:  map-get($colors, mutedColor);
+        color: map-get($colors, primaryColor);
+        font-size: 1.2rem;
+        border: none;
+        &:hover,
+        &:focus,
+        &:active {
+            outline: none;
+        }
+    }
+    @media (min-width: $breakpoint-tablet) {
+        input[type=text], select {
+            width: 500px;
+        }
+    }
+    
+}

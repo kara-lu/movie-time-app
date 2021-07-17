@@ -1,0 +1,40 @@
+.photoGalleryContainer{
+    margin: 20px 0;
+    h2{
+        font-size: 1.5rem;
+        font-weight: 300;
+        color: map-get($colors, primaryColor);
+        // margin: 0;
+    }
+
+    .photoGallery {
+        img{
+            display: block;
+            padding: 10px 5px;
+            // margin: auto;
+            // width: 500px;
+           
+        }
+        &:hover,
+        &:focus,
+        &:active {
+        outline: none;
+        }
+    }
+
+    @media (min-width: $breakpoint-tablet) {
+        max-width: 700px;
+        margin: 20px auto;
+    }
+    @media (min-width: $breakpoint-desktop) {
+        // max-width: 600px;
+        margin: 80px auto;
+        width:400px;
+    }
+    @media (min-width: 1700px) {
+        width:500px;
+    }
+    @media (min-width: 1800px) {
+        width:600px;
+    }  
+}

@@ -1,0 +1,37 @@
+.about{
+    text-align: center;
+    margin: 0 20px;
+    h1{
+        color: map-get($colors, secondaryColor);
+        margin-top: 50px;
+    }
+    h2{
+        color: map-get($colors, primaryColor);
+        font-weight: 300;
+        margin-top: 50px;
+    }
+    p{
+        max-width: 500px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 0 20px;
+    }
+    img{
+        display: block;
+        margin:20px;
+    }
+    img#tmdb{
+        max-width: 100px;
+    }
+    img#justwatch{
+        max-width: 200px;
+    }
+    .referenceGrid{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+}

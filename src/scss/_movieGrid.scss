@@ -1,0 +1,23 @@
+.movies{
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    column-gap: auto;
+    row-gap: 50px;
+
+    @media (min-width: $breakpoint-largeMobile) {
+        grid-template-columns: 1fr 1fr;
+    }
+    @media (min-width: $breakpoint-tablet) {
+        padding: 50px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    @media (min-width: $breakpoint-desktop) {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+#loading{
+    display: block;
+    margin: 100px auto;
+}

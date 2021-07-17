@@ -1,0 +1,23 @@
+.moreButtonContainer{
+    // margin: 0 auto;
+    text-align: center;
+    button{
+        background-color: map-get($colors, secondaryColor);
+        border: none;
+        color: map-get($colors, primaryColor);
+        // padding: 20px 90px;
+        width:250px;
+        height: 60px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1.5rem;
+        margin: 50px 0 100px 0;
+        cursor: pointer;
+        &:focus,
+        &:hover{
+            background-color: map-get($colors, primaryColor);
+            color: map-get($colors, secondaryColor);
+        }
+    }
+}

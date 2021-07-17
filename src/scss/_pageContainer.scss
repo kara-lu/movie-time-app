@@ -1,0 +1,17 @@
+.pageContainer{
+    position: relative;
+    max-width: 2000px;
+    // height:100%;
+    // min-height: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+
+    .infoWraper {
+        padding-bottom: 200px;    /* Footer height */
+    }
+      @media (min-width: $breakpoint-tablet) {
+        .infoWraper {
+        padding-bottom: 160px; 
+        }
+      }
+}

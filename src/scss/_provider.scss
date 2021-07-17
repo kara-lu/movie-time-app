@@ -1,0 +1,37 @@
+.providers{
+    margin: 20px auto;
+    background-color: map-get($colors, primaryColor);
+    padding: 20px;
+    h2{
+        font-weight: 400;
+        font-size: 1.25rem;
+        color: white;
+        margin: 10px 0 0 0;
+    }
+    .provider{
+        display: flex;
+        flex-wrap: wrap;
+        img{
+            width: 50px;
+            padding: 5px;
+        }
+    }
+    @media (min-width: $breakpoint-tablet) {
+        max-width: 700px;
+        padding: initial;
+        margin: 30px auto;
+        background-color: #F3F3F3;
+
+        // background-color: map-get($colors, mutedColor);
+        display: flex;
+        .typeContainer{
+            margin-right: 50px;
+            padding: 20px;
+        }
+        h2{
+            font-weight: 400;
+            margin: 10px 0 ;
+            color: map-get($colors, primaryColor);
+        }
+    }
+}
