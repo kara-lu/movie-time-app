@@ -1,6 +1,7 @@
 # Movie Time
 
 Movie time is the place to discover awesome movies.
+* [Link to App](https://karalu.ca/movie-time-app/)
 
 ## Description
 
@@ -13,9 +14,15 @@ Movie time is the place to discover movies. It has a React front-end and pulls d
 * Install Node Modules before running
 * Install React before running
 
+### Run the app
+#### `npm start`
+Runs the app in the development mode.
+
 ## Authors
 
 Kara Lu
+
+## Project Page
 https://karalu.ca/project/7
 
 ## Version History
